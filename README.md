@@ -25,11 +25,14 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Elnazkhalkhali/abyar24
+   git clone https://github.com/Elnazkhalkhali/abyar24.git
+
+2. Open the project folder in your favorite editor (e.g., VSCode).
+3. Open index.html (or your main HTML file) in your browser to see the site.
 
 ---
 
-## Feature 
- • Clean and minimal UI
- • Mobile-friendly design
- • Useful for practicing front-end layout and styling
+## ⭐ Feature 
+- Clean and minimal UI
+- Mobile-friendly design
+- Useful for practicing front-end layout and styling
