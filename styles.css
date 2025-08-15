@@ -284,13 +284,28 @@ div {
 .flowrate .info_bar {
     justify-content: flex-end;
 }
-.pump .info {
-    padding-top: 0;
+
+.pump .lights{
+    display: grid;
+    grid-template-columns: 40px 80px 80px 60px 60px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.pump .header {
+    display: contents;
+}
+.pump .label {
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
 }
 .pump .info_bar {
+    display: contents;
+    justify-content: center;
     gap: 30px;
     direction: ltr;
-    justify-content: flex-start;
 }
 .pump .information {
     gap: 10px;
@@ -300,6 +315,7 @@ div {
     padding: 5px;
     border: 0.5px solid black;
     border-radius: 10px;
+    text-align: center;
 }
 .pump .info_content_bold {
     font-weight: bold;
@@ -307,10 +323,23 @@ div {
     padding: 2px;
     justify-content: center;
 }
+
+.dosing .lights{
+    display: grid;
+    grid-template-columns: 40px 50px 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.dosing .header {
+    display: contents;
+}
 .dosing .info_bar {
-    gap: 30px;
+    display: contents;
+    justify-content: center;
+    gap: 10px;
     direction: ltr;
-    justify-content: flex-start;
 }
 
 .meteorology .info_bar {
@@ -322,6 +351,25 @@ div {
 .meteorology .elemans {
     height: 70px;
 }
+
+.automaticfilter .lights{
+    display: grid;
+    grid-template-columns: 30px 50px 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.automaticfilter .header {
+    display: contents;
+}
+.automaticfilter .info_bar {
+    display: contents;
+    justify-content: center;
+    gap: 10px;
+    direction: ltr;
+}
+
 
 .title {
     font-size: 15px;
