@@ -341,6 +341,10 @@ div {
     gap: 10px;
     direction: ltr;
 }
+.dosing .info .info {
+    border: 1px dotted black;
+    flex-direction: column;
+}
 
 .meteorology .info_bar {
     justify-content: flex-start;
